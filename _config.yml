@@ -1,0 +1,26 @@
+title: STLJCEC
+description: Saint Louis Jagannath Cultural and Educational Center.
+
+# disabled because we are using a custom domain
+#baseurl: /business-frontpage
+
+color-scheme: "mediumseagreen" # the scheme can be any HEX code like "#00aa55"
+
+sass:
+  sass_dir: /assets/css/_sass
+  style: compressed
+
+include:
+  - _pages
+
+exclude:
+  - .sass-cache
+  - .git
+  - vendor
+
+
+# These plugins are supported by github by default and can be installed locally using ruby gems
+plugins:
+  - jekyll-sitemap # Adds sitemap to the website at /sitemap.xml
+  - jekyll-feed # Adds feed to the website at /feed.xml
+  - jekyll-seo-tag # Adds all the important SEO meta tags by default.

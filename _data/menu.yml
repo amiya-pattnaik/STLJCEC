@@ -1,0 +1,17 @@
+- title: Home
+  link: /
+
+- title: About
+  link: /about/
+
+- title: Mystery
+  link: "/mystery/"
+
+- title: Gallery
+  link: "/gallery/"
+
+- title: Donation
+  link: "/donation/"
+
+- title: Contact
+  link: "/contact/"
